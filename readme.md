@@ -13,7 +13,7 @@ Components:
        Video link : coming soon on my youtube page 
 
    ## create a database named logindb
-      #### it must have column id which is a primary key with Auto increment
+    #### it must have column id which is a primary key with Auto increment
     #### username is the second column 
     #### firstname is the 3rd column 
     #### lastname is the 4th column 
