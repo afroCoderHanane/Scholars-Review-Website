@@ -60,7 +60,7 @@ session_start();
       <div class="col-lg-8">
 
         <!-- Title -->
-        <h1 class="mt-4">Post Title</h1>
+        <h1 class="mt-4">Comp. Science</h1>
 
         <!-- Author -->
         <p class="lead">
