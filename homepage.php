@@ -65,13 +65,13 @@ session_start();
         <!-- Author -->
         <p class="lead">
           by
-          <a href="#">Start Bootstrap</a>
+          <a href="#">Scholars</a>
         </p>
 
         <hr>
 
         <!-- Date/Time -->
-        <p>Posted on January 1, 2019 at 12:00 PM</p>
+        <p>Posted by  <?php echo $_SESSION['username']?></p>
 
         <hr>
 
@@ -227,7 +227,7 @@ session_start();
 
 <!-- old code -->
 
- <!--div id = "main-wrapper">
+ <div id = "main-wrapper">
      <center>
        <h2> Home Page </h2>
        <h3> Welcome <?php echo $_SESSION['username']?></h3>
