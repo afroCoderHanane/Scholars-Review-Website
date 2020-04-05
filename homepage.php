@@ -11,6 +11,8 @@ session_start();
   <meta name="X-UA-Compatible" content="ie=edge">
   <!--font awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">  
+  <!--Google font-->
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cormorant+Garamond&display=swap" rel="stylesheet">
   <!--custom stylesheet-->
   <link rel="stylesheet" href="CSS/style.css">
   <title>Scholars Home Page</title>
@@ -23,14 +25,14 @@ session_start();
         <span>Scholars</span> review
      </h1>
    </div>
-   <i class="fa fa-bars"></i>
+   <i class="fa fa-bars menu-toggle"></i>
    <ul class="nav">
     <li><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Services</a></li>
    <!-- <li><a href="#">Sign up</a></li>
     <li><a href="#">Login</a></li>-->
-    <li><a href="#">Home</a>
+    <li><a href="#">User</a>
       <ul>
         <li><a href="#">Dashboard</a></li>
         <li><a href="#" class="logout">lougout</a></li>
