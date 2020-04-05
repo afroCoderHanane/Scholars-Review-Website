@@ -32,7 +32,7 @@ session_start();
     <li><a href="#">Home</a>
       <ul>
         <li><a href="#">Dashboard</a></li>
-        <li><a href="#" class="lougout">lougout</a></li>
+        <li><a href="#" class="logout">lougout</a></li>
       </ul>
     
     </li>
