@@ -11,7 +11,8 @@ session_start();
   <meta name="X-UA-Compatible" content="ie=edge">
   <!--font awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">  
-
+  <!--custom stylesheet-->
+  <link rel="stylesheet" href="CSS/style.css">
   <title>Scholars Home Page</title>
 
 <body>
