@@ -32,10 +32,16 @@ session_start();
     <li><a href="#">Services</a></li>
    <!-- <li><a href="#">Sign up</a></li>
     <li><a href="#">Login</a></li>-->
-    <li><a href="#">User</a>
+    <li>
+      <a href="#">
+      <i class= "fa fa-user"></i>
+        User
+      <i class= "fa fa-chevron-down" style="font-size: .8em;"></i>
+      </a>
+      
       <ul>
         <li><a href="#">Dashboard</a></li>
-        <li><a href="#" class="logout">lougout</a></li>
+        <li><a href="#" class="logout">logout</a></li>
       </ul>
     
     </li>
@@ -61,7 +67,7 @@ if(isset($_POST['logout']))
    session_destroy();
    header('location:login.php');
  }
-?>-->
+?>
 </div>
 </body>
 </html>
