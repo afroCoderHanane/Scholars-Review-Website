@@ -27,7 +27,9 @@ session_start();
    </div>
    <i class="fa fa-bars menu-toggle"></i>
    <ul class="nav">
-    <li><a href="#">Home</a></li>
+    <li>
+       <a href="#">Home</a>
+    </li>
     <li><a href="#">About</a></li>
     <li><a href="#">Services</a></li>
    <!-- <li><a href="#">Sign up</a></li>
@@ -47,12 +49,12 @@ session_start();
     </li>
    </ul>
   </header>
-       <!-- old code -->
+       <!-- old code 
 
  <div id = "main-wrapper">
      <center>
        <h2> Home Page </h2>
-       <h3> Welcome <?php echo $_SESSION['username']?></h3>
+       <h3> Welcome <?php #echo $_SESSION['username']?></h3>
        <img src="logo_transparent.png" class= "avatar"/>
     </center>
 
@@ -62,12 +64,17 @@ session_start();
       
 </form>
 <?php
-if(isset($_POST['logout']))
+/*if(isset($_POST['logout']))
  {
    session_destroy();
    header('location:login.php');
- }
+ }*/
 ?>
+-->
 </div>
+<!--JQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--Script-->
+<script src="JS/script.js"> </script>
 </body>
 </html>
