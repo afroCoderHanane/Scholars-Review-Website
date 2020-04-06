@@ -91,6 +91,9 @@ header ul li ul li{
           max-height: 0px;
           overflow: hidden;
         }
+    .showing{
+        max-height: 100em;
+    }
    header ul li{
           width: 100%;
         }
