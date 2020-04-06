@@ -80,7 +80,7 @@ header ul li ul li{
       background: rgba(231, 229, 229, 0.801)
   }
   /*Media queries*/
-  @media only screen and (max-width:750px)
+ @media only screen and (max-width:750px)
   {
    header{
        position: relative;
@@ -118,11 +118,9 @@ header ul li ul li{
     position:absolute;
     right:20px;
     top:20px;
-    font:1.5em;
+    font:1.9em;
     }
-    header .logo{
-        
-        margin-left: .5em;
-        
+    header .logo{ 
+        margin-left: .5em;  
     }
-}
+    }
