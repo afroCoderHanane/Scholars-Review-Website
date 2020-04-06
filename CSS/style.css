@@ -99,8 +99,8 @@ header ul li ul li{
         }
    header ul li ul{
         position: static;
-        width: 100%;
         display: block;
+        width: 100%;
         }  
    header ul li ul li a{
    
@@ -118,9 +118,12 @@ header ul li ul li{
     position:absolute;
     right:20px;
     top:20px;
-    font:1.9em;
+    font-size:1.9em;
     }
     header .logo{ 
         margin-left: .5em;  
     }
+    header ul li ul li a:hover{
+        background:#0a2b33;
     }
+ }
