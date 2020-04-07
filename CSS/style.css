@@ -10,6 +10,14 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Acme', serif;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.page-wrapper a:hover{
+    color:#225560;
 }
 header {
     background:#225560;
@@ -64,6 +72,7 @@ header ul li ul{
   right: 0px;
   width:100%;
   display: none;
+  z-index: 999999;
 }
 header ul li ul li{
    
@@ -86,7 +95,7 @@ header ul li ul li{
   /*Trending slider*/
 
 .p_slider{
-       border: 1px solid red;
+      
        background-image: url("school.jpg");
        
        
@@ -127,7 +136,7 @@ header ul li ul li{
        overflow:hidden;
        padding: 10px 0px 10px 0px;
        margin:0px auto;
-       border:1px dashed red;
+      
    }
 .slider-title{
     text-align:center;
@@ -140,11 +149,18 @@ header ul li ul li{
        display: inline-block;
        background:#EAEFF4;
        border-radius: 5px;
+       box-sizing: 1rem 1rem 1rem -1rem #336b79 ;
+
    }
+.infos{
+    height:130px;
+    padding: 0px 5px;
+}
 .s_images{
     width:100%;
     height: 200px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
   /*Media queries*/
  @media only screen and (max-width:750px)

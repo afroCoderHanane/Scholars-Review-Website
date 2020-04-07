@@ -66,7 +66,7 @@ session_start();
             <div class="post">
               <img src="pic/math.jpg" alt="" class="s_images">
               <div class="infos">
-                 <h4>differentiable variable and <h4>
+                 <h4><a href="#">differentiable equation and Calculus II</a><h4>
                   <i class="far fa-user">User</i>
                   &nbsp;
                   <i class="far fa-calendar">April,7th</i>            
