@@ -49,6 +49,28 @@ session_start();
     </li>
    </ul>
   </header>
+
+  <!--Page Wrapper-->
+  <div class="page-wrapper">
+
+  <!--Carrousel-->
+    <div class="p_slider">
+
+      <h1 class="slider-title">Trending Post</h1>
+
+       <div class="p_wrap">
+
+            <div class="post">1</div>
+            <div class="post">2</div>
+            <div class="post">3</div>
+            <div class="post">4</div>
+            <div class="post">5</div>
+
+       </div>
+
+    </div><!--Carroussel-->
+
+  </div><!--Page wrapper-->
        <!-- old code 
 
  <div id = "main-wrapper">

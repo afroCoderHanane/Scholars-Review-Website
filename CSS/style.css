@@ -79,6 +79,17 @@ header ul li ul li{
   header ul li ul li a:hover{
       background: rgba(231, 229, 229, 0.801)
   }
+  /*Trending slider*/
+   .p_slider{
+       border: 1px solid red;
+
+   }
+   .p_slider .p_wrap{
+       width: 84%;
+       height:350px;
+       margin:0px auto;
+       border:1px dashed red;
+   }
   /*Media queries*/
  @media only screen and (max-width:750px)
   {
