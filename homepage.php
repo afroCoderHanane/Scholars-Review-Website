@@ -12,6 +12,7 @@ session_start();
   <!--font awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">  
   <!--Google font-->
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cormorant+Garamond&display=swap" rel="stylesheet">
   <!--custom stylesheet-->
   <link rel="stylesheet" href="CSS/style.css">
@@ -57,17 +58,61 @@ session_start();
     <div class="p_slider">
 
       <h1 class="slider-title">Trending Post</h1>
-      <i class="fas fa-chevron-left next"></i>
-      <i class="fas fa-chevron-right prev" ></i>
+      <i class="fas fa-angle-double-left next"></i>
+      <i class="fas fa-angle-double-right prev" ></i>
 
        <div class="p_wrap">
 
-            <div class="post">1</div>
-            <div class="post">2</div>
-            <div class="post">3</div>
-            <div class="post">4</div>
-            <div class="post">5</div>
+            <div class="post">
+              <img src="pic/math.jpg" alt="" class="s_images">
+              <div class="infos">
+                 <h4>differentiable variable and <h4>
+                  <i class="far fa-user">User</i>
+                  &nbsp;
+                  <i class="far fa-calendar">April,7th</i>            
+              </div>
+            </div>
 
+            <div class="post">
+              <img src="pic/math.jpg" alt="" class="s_images">
+              <div class="infos">
+                 <h4>differentiable variable and <h4>
+                  <i class="far fa-user">User</i>
+                  &nbsp;
+                  <i class="far fa-calendar">April,7th</i>            
+              </div>
+            </div>
+
+            <div class="post">
+              <img src="pic/math.jpg" alt="" class="s_images">
+              <div class="infos">
+                 <h4>differentiable variable and <h4>
+                  <i class="far fa-user">User</i>
+                  &nbsp;
+                  <i class="far fa-calendar">April,7th</i>            
+              </div>
+            </div>
+
+            <div class="post">
+              <img src="pic/math.jpg" alt="" class="s_images">
+              <div class="infos">
+                 <h4>differentiable variable and <h4>
+                  <i class="far fa-user">User</i>
+                  &nbsp;
+                  <i class="far fa-calendar">April,7th</i>            
+              </div>
+            </div>
+
+            <div class="post">
+              <img src="pic/math.jpg" alt="" class="s_images">
+              <div class="infos">
+                 <h4>differentiable variable and <h4>
+                  <i class="far fa-user">User</i>
+                  &nbsp;
+                  <i class="far fa-calendar">April,7th</i>            
+              </div>
+            </div>
+           
        </div>
 
     </div><!--Carroussel-->

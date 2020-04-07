@@ -8,6 +8,9 @@ body{
     background:#E7E5E5;
     font-family: 'Cormorant Garamond' , serif;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Acme', serif;
+}
 header {
     background:#225560;
     height:66px;
@@ -84,22 +87,65 @@ header ul li ul li{
 
 .p_slider{
        border: 1px solid red;
+       background-image: url("school.jpg");
+       
+       
+       position: relative;
+        /* Full height */
+        height: 100%;
 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
    }
+   .next{
+       position: absolute;
+       top:58%;
+       left :30px;
+       cursor: pointer;
+       font-size : 200%;
+       color: #062e38;
+   }
+   .prev{
+        position: absolute;
+        top:58%;
+        right :30px;
+        cursor: pointer;
+        font-size : 200%;
+        color: #062e38;
+}
+.next:hover{
+    background: #336b79; ;
+}
+.prev:hover{
+    background: #336b79; ;
+}
 .p_slider .p_wrap{
        width: 84%;
        height:350px;
        overflow:hidden;
+       padding: 10px 0px 10px 0px;
        margin:0px auto;
        border:1px dashed red;
    }
+.slider-title{
+    text-align:center;
+    margin:40px auto;
+}
  .post{
-       height: 350px;
+       height: 330px;
        width: 300px;
        margin:0px 10px;
        display: inline-block;
-       background:#297373;
+       background:#EAEFF4;
+       border-radius: 5px;
    }
+.s_images{
+    width:100%;
+    height: 200px;
+    border-radius: 5px;
+}
   /*Media queries*/
  @media only screen and (max-width:750px)
   {
