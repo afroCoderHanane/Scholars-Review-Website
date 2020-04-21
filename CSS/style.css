@@ -162,6 +162,13 @@ header ul li ul li{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+/*CONTENT STYLING*/
+.content{
+    width:90%;
+    margin:30px auto 30px;
+    
+}
+
   /*Media queries*/
  @media only screen and (max-width:750px)
   {

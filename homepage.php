@@ -116,8 +116,20 @@ session_start();
        </div>
 
     </div><!--Carroussel-->
+    <!--Content-->
+    <div class="content">
 
-  </div><!--Page wrapper-->
+      <div class="main-content">
+      <h1 class="recent-post-title">Recent Post</h1>
+      </div>
+      <!--Sidebar-->
+      <div class="sidebar">
+      
+      </div>   
+      
+    </div>
+
+  </div><!-- End Page wrapper-->
        <!-- old code 
 
  <div id = "main-wrapper">
