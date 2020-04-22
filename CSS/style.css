@@ -16,6 +16,11 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
 .page-wrapper a:hover{
     color:#225560;
 }
@@ -168,6 +173,16 @@ header ul li ul li{
     margin:30px auto 30px;
     
 }
+.main-content{
+    width: 70%;
+    float: left;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+
 
   /*Media queries*/
  @media only screen and (max-width:750px)
