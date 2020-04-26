@@ -31,8 +31,8 @@ session_start();
     <li>
        <a href="#">Home</a>
     </li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
+    <li><a href="about.php">About</a></li>
+    <li><a href="contactpage.php">Services</a></li>
    <!-- <li><a href="#">Sign up</a></li>
     <li><a href="#">Login</a></li>-->
     <li>
