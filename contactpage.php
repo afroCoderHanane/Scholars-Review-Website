@@ -4,6 +4,7 @@
 <head>
 <body>
 <meta charset="utf-8">
+ <script src="JS/scriptcounter.js"></script> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="X-UA-Compatible" content="ie=edge">
 
@@ -15,9 +16,9 @@
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cormorant+Garamond&display=swap" rel="stylesheet">
 
   <!--custom stylesheet -->
-  <link rel="stylesheet" href="CSS/style.css" media="all">
-  
-  <link rel="stylesheet" href="CSS/form-css.css" media="all"> 
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/style.css">
+
 
   <title>Contact Us</title>
   
@@ -53,7 +54,7 @@
     </li>
    </ul>
   </header>
-      <form class = "form" method= "post">
+      <form class = "form" action="contactform.php" method= "post">
         <h2 class ="title"> Contact Us </h2>
         <p class="name">
           <label id= "label1"for="name">Name</label>
@@ -73,18 +74,15 @@
         <!-- Text area for user adjust the input place as he/she wants -->
         <p class="text">
           <label for="message">Message</label>
-          <textarea name="text" placeholder="Write something to use" maxlength="500"></textarea>
+          <textarea name="message" onkeyup="countChars(this);" placeholder="Write something" maxlength="500"></textarea>
         </p>
-
+        <p id="charNum">0 characters</p>
         <p class="submit">
           <input type="submit" value="Send"></p>
 
       </form>
     </body>
 
+</body>
 </html>
-
-<!-- I will add basic php soon /charles-->
-
-
 
