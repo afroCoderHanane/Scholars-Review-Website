@@ -17,7 +17,7 @@
 
   <!--custom stylesheet -->
   <link rel="stylesheet" href="CSS/style.css">
-  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/form-css.css">
 
 
   <title>Contact Us</title>
