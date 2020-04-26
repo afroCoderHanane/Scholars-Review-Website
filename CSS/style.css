@@ -160,6 +160,36 @@ header ul li ul li{
     text-align:center;
     margin:40px auto;
 }
+.main-title{
+    text-align:center;
+    margin:40px auto;
+    font-size: 250%;
+}
+p.text-title{
+    display:block;
+    font-size: 150%;
+    text-align:center;
+    word-wrap: break-word;
+    padding-left:200px;
+    padding-right:200px
+}
+
+img.rounded-corners {
+  border-radius: 30px;
+  height: 150px;
+  width: 150px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding-left: 70px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
  .post{
        height: 330px;
        width: 300px;
@@ -170,6 +200,8 @@ header ul li ul li{
        box-sizing: 1rem 1rem 1rem -1rem #336b79 ;
 
    }
+ }
+}
 .infos{
     height:130px;
     padding: 0px 5px;
