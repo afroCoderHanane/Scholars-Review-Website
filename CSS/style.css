@@ -182,8 +182,6 @@ header ul li ul li{
     float: left;
     height: 300px;
 }
-
-
   /*Media queries*/
  @media only screen and (max-width:750px)
   {
