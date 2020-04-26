@@ -119,36 +119,76 @@ session_start();
     <!--Content-->
     <div class="content clearfix">
 
-      <div class="main-content">
+      <div class="main-content"> <!--Main content-->
       <h1 class="recent-post-title">Recent Post</h1>
        <div class="post">
          <img src="pic/math.jpg" alt="" class="post-image">
          <div class="post-preview">
-           <h1>
+           <h2>
              <a href="single.html">shvjsvbvjdbjdsvgsdvdsjgvcdhscbxvdbsvhjchs
                
-             </a> </h1>
+             </a> </h2>
              <i class="far fa-user">User</i>
              &nbsp;
              <i class="far calendar">April 22,2020</i>
              <p class="preview-text">
                 hdshjbhdsf wdhbsdjj dfbjdsb  djfbdsxh dsbjcs dhbsj sd sbsxv ha
-                jhsbsjb
+                jhsbsjb fjjdjjdnncdkksdnfnvjfkdkjdkxlkdnmdkkkdkkdk fhdjnfnkfjn
+                jfjkdklsjfkdkljfjkdkdl
 
              </p>
-             <a href="single.html" class="btn">Read more</a>
+             <a href="single.html" class="btn read-more">Read more</a>
+         </div> 
+        </div>
 
-           
-         </div>
-       </div> 
+        <div class="post">
+         <img src="pic/math.jpg" alt="" class="post-image">
+         <div class="post-preview">
+           <h2>
+             <a href="single.html">shvjsvbvjdbjdsvgsdvdsjgvcdhscbxvdbsvhjchs
+               
+             </a> </h2>
+             <i class="far fa-user">User</i>
+             &nbsp;
+             <i class="far calendar">April 22,2020</i>
+             <p class="preview-text">
+                hdshjbhdsf wdhbsdjj dfbjdsb  djfbdsxh dsbjcs dhbsj sd sbsxv ha
+                jhsbsjb fjjdjjdnncdkksdnfnvjfkdkjdkxlkdnmdkkkdkkdk fhdjnfnkfjn
+                jfjkdklsjfkdkljfjkdkdl
 
-      </div>
+             </p>
+             <a href="single.html" class="btn read-more">Read more</a>
+         </div> 
+        </div>
+
+        <div class="post">
+         <img src="pic/math.jpg" alt="" class="post-image">
+         <div class="post-preview">
+           <h2>
+             <a href="single.html">shvjsvbvjdbjdsvgsdvdsjgvcdhscbxvdbsvhjchs
+               
+             </a> </h2>
+             <i class="far fa-user">User</i>
+             &nbsp;
+             <i class="far calendar">April 22,2020</i>
+             <p class="preview-text">
+                hdshjbhdsf wdhbsdjj dfbjdsb  djfbdsxh dsbjcs dhbsj sd sbsxv ha
+                jhsbsjb fjjdjjdnncdkksdnfnvjfkdkjdkxlkdnmdkkkdkkdk fhdjnfnkfjn
+                jfjkdklsjfkdkljfjkdkdl
+
+             </p>
+             <a href="single.html" class="btn read-more">Read more</a>
+         </div> 
+        </div>
+       
+
+      </div><!-- end Main content-->
       <!--Sidebar-->
       <div class="sidebar">
       
       </div>   
       
-    </div>
+    </div><!--//content-->
 
   </div><!-- End Page wrapper-->
        <!-- old code 
