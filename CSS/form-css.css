@@ -16,7 +16,7 @@ h2 {
 */
 .form {
 	margin-top: 100px;
-	margin-left: 450px;
+	margin-left: 520px;
   	display: inline-block;
   	text-align: left;
 
@@ -37,7 +37,7 @@ h2 {
 input, textarea {
 	padding: 10px;
 	border: 1px solid #E5E5E5;
-	width: 200px;
+	width: 400px;
 	color: #999999;
 	box-shadow: rgba(0,0,0,0.1)0px 0px 0px;
 	-moz-box-shadow: rgba(0,0,0,0.1)0px 0px 0px;
