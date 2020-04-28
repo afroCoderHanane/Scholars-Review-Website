@@ -158,6 +158,7 @@ session_start();
 
              </p>
              <a href="single.html" class="btn read-more">Read more</a>
+           <!--  <a href="single.html" class="btn reply">Reply</a>-->
          </div> 
         </div>
 

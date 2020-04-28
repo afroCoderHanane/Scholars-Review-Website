@@ -245,6 +245,14 @@ img.rounded-corners {
     border-radius: 0px;
     color: #144853 !important;
 }
+/*.content .main-content .post .reply{
+    position: absolute;
+    bottom:10px;
+    right: 20px;
+    background: transparent;
+    border-radius: 0px;
+    color: #144853 !important;
+}*/
 .content .main-content .post .read-more:hover{
     background:#144853;
     color:white !important;
@@ -255,12 +263,12 @@ img.rounded-corners {
     height:100%;
     float:left;
 }
-.content .main-content .post .post-preview
+/*.content .main-content .post .post-preview
 {
     width:60%;
     padding:10px;
     float: right;
-}
+}*/
 .content .main-content .recent-post-title{
     margin:20px;
 }
