@@ -12,8 +12,11 @@
   <div class="footer">
       <div class="inner_footer">
           <div class="logo_container">
-             <img><i class="fas fa-brain"></i></img>
-             <h2> Scholars Review </h2>
+             <img class="footer-logo"><i class="fas fa-brain"></i></img>
+             <h2 class="footer-heading"> <span>Scholars</span> Review </h2>
+             &nbsp
+            <h4>  &copy Copyright 2020, All right reserved <h4>
+
           </div>
 
           <div class="footer_third">
@@ -23,10 +26,10 @@
           </div>
 
           <div class="footer_third">
-              <h1>More</h1>
-              <a href="#">Tag1</a>
-              <a href="#">Tag2</a>
-              <a href="#">Tag3</a>
+              <h1>More Learning Resources</h1>
+              <a href="edx.org">Edx</a>
+              <a href="coursera.org"><i class="fas fa-infinity"> Coursera</i></a>
+              <a href="http://tutorial.math.lamar.edu/">Math Online</a>
 
           </div>  
 

@@ -21,7 +21,7 @@ include_once('template/header.php');
   <link rel="stylesheet" href="CSS/form-css.css">
   </body>
 <body>
-  <header>
+ <!-- <header>
    <div class="logo">
      <h1 class="logo-text">
         <i class="fas fa-brain"></i>
@@ -37,7 +37,7 @@ include_once('template/header.php');
     <li><a href="contactpage.php">Services</a></li>
    <!-- <li><a href="#">Sign up</a></li>
     <li><a href="#">Login</a></li>-->
-    <li>
+   <!-- <li>
       <a href="#">
       <i class= "fa fa-user"></i>
         User
@@ -51,7 +51,7 @@ include_once('template/header.php');
     
     </li>
    </ul>
-  </header>
+  </header> -->
   <title> About Us </title>
   <h2 class = "main-title"> Our Goal </h2>
   <p class ="text-title">To be better than stackoverflow &#128540 </p>

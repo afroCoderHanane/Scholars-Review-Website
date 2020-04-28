@@ -12,10 +12,21 @@
   padding: 70px 0;
   padding-bottom: 30px;
   box-sizing: border-box;
-  background-color: #18181a;
+  background-color: #1a535c;
 
 }
-
+.footer-heading{
+  color:whitesmoke;
+  
+  margin: 30px;
+}
+.footer-heading span{
+  color: #042125;
+}
+.footer-logo{
+  margin: 20px;
+  font-size: 200%;
+}
 .inner_footer{
   display:block;
   margin: 0 auto;
