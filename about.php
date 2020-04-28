@@ -1,15 +1,16 @@
+<?php 
+include_once('template/header.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang ="en">
 
 <head>
 <body>
-<meta charset="utf-8">
- <script src="JS/scriptcounter.js"></script> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="X-UA-Compatible" content="ie=edge">
 
-  <!--font awesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">  
+<div id="container">
+  <div id ="main">
 
   <!--Google font-->
   <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
@@ -92,6 +93,14 @@
       <h2> member 5</h2>
     </div>
   </div>
+</div>
+</div>
+
+<footer>
+<?php
+include_once('template/footpage.php');
+?>
+</footer>
 
 
   </body>
