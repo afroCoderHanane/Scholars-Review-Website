@@ -1,11 +1,15 @@
 
 <?php
 session_start();
-//Check if user is logged in
+//if user is logged in
 if (isset($_SESSION['username'])) {
-} else {
-    echo "You are NOT logged in!";
-    header('location:login.php');
+}
+//if user is not logged in
+else {
+  echo"<script> 
+  alert('Aha! Nope! You need log in first!');
+  window.location.href='login.php';
+  </script>";
   }
 ?>
 
