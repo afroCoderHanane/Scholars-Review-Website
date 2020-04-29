@@ -1,3 +1,14 @@
+
+<?php
+session_start();
+//Check if user is logged in
+if (isset($_SESSION['username'])) {
+} else {
+    echo "You are NOT logged in!";
+    header('location:login.php');
+  }
+?>
+
 <!DOCTYPE html>
 <html lang ="en">
 
@@ -41,16 +52,16 @@
     <li>
       <a href="#">
       <i class= "fa fa-user"></i>
-        User
+        <?php echo $_SESSION['username']?>
       <i class= "fa fa-chevron-down" style="font-size: .8em;"></i>
       </a>
       
       <ul>
         <li><a href="#">Dashboard</a></li>
-        <li><a href="#" class="logout">logout</a></li>
+        <li><a href="logout.php" class="logout">logout</a></li>
       </ul>
     
     </li>
    </ul>
   </header>
-  
+</body>

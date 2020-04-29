@@ -1,25 +1,6 @@
-<!--<?php
-session_start();
-?>-->
 
 <?php include ('template/header.php');
 ?>
-
-<!DOCTYPE html>
-<html lang ="en">
-
-<head>
-
-<title>Scholars Home Page</title>
-<body>
-  <!-- Header of the page -->
-  <!-- End of the header page -->
-
-  <!--Page Wrapper-->
-  <div class="page-wrapper">
-      <div class="header">
-        <?php include_once('template/header.php');
-       ?>
 
   <!--Carrousel-->
     <div class="p_slider">
@@ -209,21 +190,7 @@ session_start();
 ?>
 -->
 
-      <footer>
         <?php
           include('template/footpage.php');
         ?>
-      <footer>
-
-
-
-<!--JQuery-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<!--Caroussel-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<!--Script-->
-<script src="JS/script.js">
-</script>
-</body>
-</html>
-
+ 
