@@ -6,14 +6,16 @@ require 'config.php';
 <html>
 <head>
 <title>Login Page</title>
-<link rel ="stylesheet" href="style.css">
+<link rel ="stylesheet" href="CSS/credentials-style.css">
+<link href="https://fonts.googleapis.com/css?family=Bitter|Poppins&display=swap" rel="stylesheet">
 </head>
-<body style="background-color:#2c3e50 ">
+<body >
 
  <div id = "main-wrapper">
      <center>
        <h2> Login </h2>
-       <img src="logo_transparent.png" class= "avatar"/>
+       <img src="pic/avatar.png" alt="https://flyclipart.com/download-png#avatar-my-profile-profile-user-user-profile-icon-196366.png"class= "avatar"/>
+    
     </center>
 
 <form class= "myform" action"index.php" method="post">
@@ -22,7 +24,8 @@ require 'config.php';
       <label><b> Password</b></label><br>
       <input name="password"type="password" class="inputvalue" placeholder="Enter password" required/><br>
       <input name="login" type="submit" id="login-btn" value ="login"/><br>
-     <a href="register.php"> <input type="button" id="register-btn" value ="Register"/></a>
+      <p>or</p>
+     <a href="register.php"> <input type="button" id="register-btn" value ="Sign up"/></a>
 </form>
 <?php
   if(isset($_POST['login']))

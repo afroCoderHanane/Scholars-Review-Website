@@ -5,14 +5,15 @@ require 'config.php';
 <html>
 <head>
 <title>Registration Page</title>
-<link rel ="stylesheet" href="style.css">
+<link rel ="stylesheet" href="CSS/credentials-style.css">
+<link href="https://fonts.googleapis.com/css?family=Bitter|Poppins&display=swap" rel="stylesheet">
 </head>
-<body style="background-color:#d2dae2">
+<body>
 
  <div id = "main-wrapper">
      <center>
        <h2> Register </h2>
-       <img src="logo_transparent.png" class= "avatar"/>
+       <img src="pic/avatar.png" alt="https://flyclipart.com/download-png#avatar-my-profile-profile-user-user-profile-icon-196366.png"class= "avatar"/>
     </center>
 
 <form class= "myform" action"register.php" method="post">
@@ -25,7 +26,7 @@ require 'config.php';
       <input name="gender" type="radio" class="radiobtns" value= "male" checked required>Male
       <input name="gender" type="radio" class="radiobtns" value= "female" required>Female
       <input name="gender" type="radio" class="radiobtns" value= "other" required>Other<br>
-      <label><b>Level of Ed.</b></label>
+      <br><label><b>Level of Ed.</b></label>
         <select class="qualification" name="qualification">
            <option value="Associate">Associate</option>
            <option value="Bachelor">Bachelor</option>
@@ -38,7 +39,7 @@ require 'config.php';
       <input name="password" type="password" class="inputvalue" placeholder="Enter password" required/><br>
       <label><b> Confirm Password</b></label><br>
       <input name="cpassword" type="password" class="inputvalue" placeholder="Confirm password"required/><br>
-      <input name="submit-btn" type="submit" id="signup-btn" value ="Sign up"/><br>
+      <input name="submit-btn" type="submit" id="signup-btn" value ="Register"/><br>
       <a href= "login.php"><input type="button" id="back-btn" value ="Back"/></a>
       
 </form>
