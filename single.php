@@ -10,7 +10,7 @@ session_start();
   
   
   <!-- End of the header page -->
-
+<body>
   <!--Page Wrapper-->
   <div class="page-wrapper">
        
@@ -56,7 +56,7 @@ i porta lorem mollis aliquam ut porttitor leo a. Nunc sed velit dignissim sodale
 
 </div>
   <!-- End Page wrapper-->
-      
+</body>    
 <?php
   include('template/footpage.php');
 ?>

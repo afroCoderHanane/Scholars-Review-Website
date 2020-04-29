@@ -1,27 +1,8 @@
 
-<!DOCTYPE html>
-<html lang ="en">
-
-<head>
-
-
-<div id="container">
-  <div id ="main">
-
-  <!--Google font-->
-  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cormorant+Garamond&display=swap" rel="stylesheet">
-
-  <!--custom stylesheet -->
-  <link rel="stylesheet" href="CSS/style.css">
-  <link rel="stylesheet" href="CSS/form-css.css">
- </head>
-  
-<body>
 <?php 
 include_once('template/header.php');
 ?>
-
+<body>
  <!-- <header>
    <div class="logo">
      <h1 class="logo-text">
@@ -101,14 +82,7 @@ include_once('template/header.php');
   </div>
 </div>
 </div>
-
-<footer>
+</body>
 <?php
 include_once('template/footpage.php');
 ?>
-</footer>
-
-</body>
-
-
-</html>
