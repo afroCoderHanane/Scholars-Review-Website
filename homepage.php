@@ -158,7 +158,27 @@ session_start();
       </div><!-- end Main content-->
       <!--Sidebar-->
       <div class="sidebar">
-      </div>
+        <div class="section search">
+             <h2 class="section-title">Search</h2>
+             <form action="homepage.php" method="post">
+               <input type="text" name="search-term" class="text-input" placeholder="Search...">
+             </form>
+        </div>
+
+        <div class="section topics">
+          <h2 class="section-title">Topics</h2>
+          <ul>
+            <li><a href="#">Calculus</a></li>
+            <li><a href="#">Intro to Comp. Sci.</a></li>
+            <li><a href="#">Advanced programming</a></li>
+            <li><a href="#">Intro to litterature</a></li>
+            <li><a href="#">English Comp.</a></li>
+            <li><a href="#">Data Structures</a></li>
+            <li><a href="#">Biology</a></li>
+            <li><a href="#">Physics</a></li>
+          </ul>
+        </div>
+      </div><!--End of sidebar-->
 
   
    

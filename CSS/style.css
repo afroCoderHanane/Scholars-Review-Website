@@ -36,6 +36,20 @@ a{
 .page-wrapper a:hover{
     color:#225560;
 }
+/*Navbar*/
+.text-input{
+    padding: .7rem 1rem;
+    display:block;
+    width:100%;
+    border-radius: 5px ;
+    outline: none;
+    color: #0e3a44;
+    line-height: 1.5rem;
+    border:1px solid #e0e0e0e0;
+    font-family: 'Acme', serif ;
+    font-size:1.2em;
+
+}
 header {
     background: #225560;
     
@@ -223,12 +237,7 @@ img.rounded-corners {
     float: left;
     
 }
-.content .sidebar{
-    width: 30%;
-    float: left;
-    height: 300px;
-    border: 1px dashed green;
-}
+
 .content .main-content .post{
     width:95%;
     height:270px;
@@ -272,6 +281,45 @@ img.rounded-corners {
 .content .main-content .recent-post-title{
     margin:20px;
 }
+
+/*SIdebar*/
+
+.content .sidebar{
+    width: 30%;
+    float: left;
+    height: 300px;
+   /* border: 1px dashed green;*/
+}
+.content .sidebar .section{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.content .sidebar .section .section-title{
+    margin:10px 0px 10px 0px;
+}
+.content .sidebar .section.search{
+
+    margin-top: 100px;
+}
+.content .sidebar .section.topics ul{
+    margin:0px;
+    padding:0px;
+    border-top:1px solid #e0e0e0;
+}
+.content .sidebar .section.topics ul li a{
+    display:block;
+    padding: 15px 0px 15px 0px;
+
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.3s;
+}
+.content .sidebar .section.topics ul li a:hover{
+    padding-left: 10px;
+    transition: all 0.3s;
+}
+
   /*Media queries*/
  @media only screen and (max-width:750px)
   {
