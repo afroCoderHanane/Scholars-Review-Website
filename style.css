@@ -2,8 +2,12 @@
     width: 500px;
     margin: 0 auto;
     background: white;
-    padding: 5px;
+   /* padding: 5px;*/
     border: 2px solid #2c3e50;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 #login-btn{
     margin-top: 10px;
@@ -37,6 +41,7 @@
 .myform{
     width: 450 px;
     margin: 0 auto;
+   
 
 
 }
