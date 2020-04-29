@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang ="en">
 
-<body>
+<head>
 <meta charset="utf-8">
  <script src="JS/scriptcounter.js"></script> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="CSS/form-css.css">
   <link rel="stylesheet" type="text/css" href="CSS/footer.css">
 
-  </body>
+</head>
 <body>
   <header>
    <div class="logo">
@@ -53,5 +53,4 @@
     </li>
    </ul>
   </header>
-  </body>
-</head>
+  

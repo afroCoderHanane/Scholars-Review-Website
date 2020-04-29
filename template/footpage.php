@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="../CSS/footer.css">
-  <script src="https://kit.fontawesome.com/f0e157d390.js" crossorigin="anonymous"></script>
 
-  <!-- Icons -->
-  <title></title>
-</head>
-<body>
   <div class="footer">
       <div class="inner_footer">
           <div class="logo_container">
@@ -50,5 +40,14 @@
 
     </div>
   </div>
+
+  <!--JQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!--Caroussel-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!--Script-->
+<script src="JS/script.js">
+
+</script>
 </body>
 </html>

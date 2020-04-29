@@ -97,7 +97,7 @@ session_start();
          <img src="pic/math.jpg" alt="" class="post-image">
          <div class="post-preview">
            <h2>
-             <a href="single.html">shvjsvbvjdbjdsvgsdvdsjgvcdhscbxvdbsvhjchs
+             <a href="single.php">shvjsvbvjdbjdsvgsdvdsjgvcdhscbxvdbsvhjchs
                
              </a> </h2>
              <i class="far fa-user">User</i>
@@ -117,7 +117,7 @@ session_start();
          <img src="pic/math.jpg" alt="" class="post-image">
          <div class="post-preview">
            <h2>
-             <a href="single.html">shvjsvbvjdbjdsvgsdvdsjgvcdhscbxvdbsvhjchs
+             <a href="single.php">shvjsvbvjdbjdsvgsdvdsjgvcdhscbxvdbsvhjchs
                
              </a> </h2>
              <i class="far fa-user">User</i>
@@ -129,7 +129,7 @@ session_start();
                 jfjkdklsjfkdkljfjkdkdl
 
              </p>
-             <a href="single.html" class="btn read-more">Read more</a>
+             <a href="single.php" class="btn read-more">Read more</a>
            <!--  <a href="single.html" class="btn reply">Reply</a>-->
          </div> 
         </div>
@@ -138,7 +138,7 @@ session_start();
          <img src="pic/math.jpg" alt="" class="post-image">
          <div class="post-preview">
            <h2>
-             <a href="single.html">shvjsvbvjdbjdsvgsdvdsjgvcdhscbxvdbsvhjchs
+             <a href="single.php">shvjsvbvjdbjdsvgsdvdsjgvcdhscbxvdbsvhjchs
                
              </a> </h2>
              <i class="far fa-user">User</i>
