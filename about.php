@@ -1,39 +1,11 @@
 
-<?php 
+<?php
 include_once('template/header.php');
 ?>
+
+
 <body>
- <!-- <header>
-   <div class="logo">
-     <h1 class="logo-text">
-        <i class="fas fa-brain"></i>
-        <span>Scholars</span> review
-     </h1>
-   </div>
-   <i class="fa fa-bars menu-toggle"></i>
-   <ul class="nav">
-    <li>
-       <a href="homepage.php">Home</a>
-    </li>
-    <li><a href="about.php">About</a></li>
-    <li><a href="contactpage.php">Services</a></li>
-   <!-- <li><a href="#">Sign up</a></li>
-    <li><a href="#">Login</a></li>-->
-   <!-- <li>
-      <a href="#">
-      <i class= "fa fa-user"></i>
-        User
-      <i class= "fa fa-chevron-down" style="font-size: .8em;"></i>
-      </a>
-      
-      <ul>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#" class="logout">logout</a></li>
-      </ul>
-    
-    </li>
-   </ul>
-  </header> -->
+
   <title> About Us </title>
   <h2 class = "main-title"> Our Goal </h2>
   <p class ="text-title">To be better than stackoverflow &#128540 </p>

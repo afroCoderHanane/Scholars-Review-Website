@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang ="en">
 
@@ -47,10 +48,21 @@
       
       <ul>
         <li><a href="#">Dashboard</a></li>
-        <li><a href="#" class="logout">logout</a></li>
+        <li><a href="logout.php" class="logout">logout</a></li>
       </ul>
     
     </li>
    </ul>
   </header>
 </body>
+
+<?php
+session_start();
+//Check if user is logged in
+if (isset($_SESSION['username'])) {
+    echo "You are logged in!";
+} else {
+    echo "You are NOT logged in!";
+    header('location:login.php');
+  }
+?>
