@@ -17,7 +17,7 @@ if (isset($_SESSION['username'])) {
  <script src="JS/scriptcounter.js"></script> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="X-UA-Compatible" content="ie=edge">
-
+ <title><?php $title?></title>
   <!--font awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">  
   <script src="https://kit.fontawesome.com/f0e157d390.js" crossorigin="anonymous"></script>

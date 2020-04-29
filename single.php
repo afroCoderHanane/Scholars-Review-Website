@@ -1,16 +1,14 @@
-<!--<?php
-session_start();
-?>-->
 
   <!-- Header of the page -->
  
   <?php 
+  $title="single";
   include ('template/header.php');
   ?>
   
   
   <!-- End of the header page -->
-<body>
+
   <!--Page Wrapper-->
   <div class="page-wrapper">
        
@@ -20,7 +18,6 @@ session_start();
 
        <div class="main-content single"> <!--Main content-->
       
-<<<<<<< HEAD
        <h1 class="post-title">This is the title</h1>
        
        <div class="post-content">
@@ -41,23 +38,11 @@ Consequat semper viverra nam libero justo. Fames ac turpis egestas maecenas phar
 Nisl nunc mi ipsum faucibus vitae. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Purus semper eget duis at tellus at urna. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Augue mauris augue neque gravida in. In fermentum et sollicitudin ac orci. Et magnis dis parturient montes nascetur ridiculus. Purus sit amet luctus venenatis lectus magna fringilla urna. Non blandit massa enim nec dui nunc mattis. Risus feugiat in ante metus dictum. Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Tristique nulla aliquet enim tortor at. Integer eget aliquet nibh praesent tristique magna.
          </p>
        </div>
-=======
-       <h2 class="post-title">This is the title</h2>
-       <p>
-      
-i porta lorem mollis aliquam ut porttitor leo a. Nunc sed velit dignissim sodales ut. Odio pellentesque diam volutpat commodo sed egestas egestas. Ut tristique et egestas quis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Nulla pellentesque dignissim enim sit amet. Dignissim sodales ut eu sem integer vitae justo. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Duis ut diam quam nulla porttitor massa id. Tellus in hac habitasse platea dictumst. Donec ac odio tempor orci dapibus ultrices in iaculis. Eu lobortis elementum nibh tellus molestie nunc non. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Nunc mattis enim ut tellus. Sem fringilla ut morbi tincidunt augue interdum. Turpis tincidunt id aliquet risus. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
-i porta lorem mollis aliquam ut porttitor leo a. Nunc sed velit dignissim sodales ut. Odio pellentesque diam volutpat commodo sed egestas egestas. Ut tristique et egestas quis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Nulla pellentesque dignissim enim sit amet. Dignissim sodales ut eu sem integer vitae justo. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Duis ut diam quam nulla porttitor massa id. Tellus in hac habitasse platea dictumst. Donec ac odio tempor orci dapibus ultrices in iaculis. Eu lobortis elementum nibh tellus molestie nunc non. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Nunc mattis enim ut tellus. Sem fringilla ut morbi tincidunt augue interdum. Turpis tincidunt id aliquet risus. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
-i porta lorem mollis aliquam ut porttitor leo a. Nunc sed velit dignissim sodales ut. Odio pellentesque diam volutpat commodo sed egestas egestas. Ut tristique et egestas quis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Nulla pellentesque dignissim enim sit amet. Dignissim sodales ut eu sem integer vitae justo. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Duis ut diam quam nulla porttitor massa id. Tellus in hac habitasse platea dictumst. Donec ac odio tempor orci dapibus ultrices in iaculis. Eu lobortis elementum nibh tellus molestie nunc non. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Nunc mattis enim ut tellus. Sem fringilla ut morbi tincidunt augue interdum. Turpis tincidunt id aliquet risus. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
-i porta lorem mollis aliquam ut porttitor leo a. Nunc sed velit dignissim sodales ut. Odio pellentesque diam volutpat commodo sed egestas egestas. Ut tristique et egestas quis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Nulla pellentesque dignissim enim sit amet. Dignissim sodales ut eu sem integer vitae justo. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Duis ut diam quam nulla porttitor massa id. Tellus in hac habitasse platea dictumst. Donec ac odio tempor orci dapibus ultrices in iaculis. Eu lobortis elementum nibh tellus molestie nunc non. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Nunc mattis enim ut tellus. Sem fringilla ut morbi tincidunt augue interdum. Turpis tincidunt id aliquet risus. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
-i porta lorem mollis aliquam ut porttitor leo a. Nunc sed velit dignissim sodales ut. Odio pellentesque diam volutpat commodo sed egestas egestas. Ut tristique et egestas quis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Nulla pellentesque dignissim enim sit amet. Dignissim sodales ut eu sem integer vitae justo. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Duis ut diam quam nulla porttitor massa id. Tellus in hac habitasse platea dictumst. Donec ac odio tempor orci dapibus ultrices in iaculis. Eu lobortis elementum nibh tellus molestie nunc non. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Nunc mattis enim ut tellus. Sem fringilla ut morbi tincidunt augue interdum. Turpis tincidunt id aliquet risus. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
-i porta lorem mollis aliquam ut porttitor leo a. Nunc sed velit dignissim sodales ut. Odio pellentesque diam volutpat commodo sed egestas egestas. Ut tristique et egestas quis. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Nulla pellentesque dignissim enim sit amet. Dignissim sodales ut eu sem integer vitae justo. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Duis ut diam quam nulla porttitor massa id. Tellus in hac habitasse platea dictumst. Donec ac odio tempor orci dapibus ultrices in iaculis. Eu lobortis elementum nibh tellus molestie nunc non. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Nunc mattis enim ut tellus. Sem fringilla ut morbi tincidunt augue interdum. Turpis tincidunt id aliquet risus. Viverra orci sagittis eu volutpat odio facilisis mauris sit.
-
-       </p>
->>>>>>> d4b1bb98cffbf761b551dfa3a60549e4f777d1af
 
       </div><!-- end Main content-->
       <!--Sidebar-->
-         <div class="section topics">
+      <div class="sidebar single">
+       <div class="section topics">
           <h2 class="section-title">Topics</h2>
           <ul>
             <li><a href="#">Calculus</a></li>
@@ -69,7 +54,7 @@ i porta lorem mollis aliquam ut porttitor leo a. Nunc sed velit dignissim sodale
             <li><a href="#">Biology</a></li>
             <li><a href="#">Physics</a></li>
           </ul>
-         </div>
+      </div>
      </div><!--End of sidebar-->
 
    </div>
@@ -77,7 +62,7 @@ i porta lorem mollis aliquam ut porttitor leo a. Nunc sed velit dignissim sodale
 
 </div>
   <!-- End Page wrapper-->
-</body>    
+  
 <?php
   include('template/footpage.php');
 ?>

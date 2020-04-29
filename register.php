@@ -72,6 +72,7 @@ require 'config.php';
              if($query_run)
              {
                 echo '<script type = "text/javascript"> alert("Registration successful: Return to login Page")</script>';
+                header("login.php");
              }
              else
              {
