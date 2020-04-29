@@ -1,13 +1,9 @@
-<?php 
-include_once('template/header.php');
-?>
-
 
 <!DOCTYPE html>
 <html lang ="en">
 
 <head>
-<body>
+
 
 <div id="container">
   <div id ="main">
@@ -19,8 +15,13 @@ include_once('template/header.php');
   <!--custom stylesheet -->
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/form-css.css">
-  </body>
+ </head>
+  
 <body>
+<?php 
+include_once('template/header.php');
+?>
+
  <!-- <header>
    <div class="logo">
      <h1 class="logo-text">
@@ -107,7 +108,7 @@ include_once('template/footpage.php');
 ?>
 </footer>
 
+</body>
 
-  </body>
-</head>
+
 </html>

@@ -2,28 +2,26 @@
 <html lang ="en">
 
 <head>
-<body>
-<meta charset="utf-8">
- <script src="JS/scriptcounter.js"></script> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="X-UA-Compatible" content="ie=edge">
 
-  <!--font awesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">  
+
+<div id="container">
+  <div id ="main">
 
   <!--Google font-->
   <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cormorant+Garamond&display=swap" rel="stylesheet">
-  
+
   <!--custom stylesheet -->
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/form-css.css">
-  <link rel="stylesheet" href="CSS/footer.css">
-
-  <title>Contact Us</title>
+ </head>
   
 <body>
-  <header>
+<?php 
+include_once('template/header.php');
+?>
+
+ <!-- <header>
    <div class="logo">
      <h1 class="logo-text">
         <i class="fas fa-brain"></i>
@@ -39,7 +37,7 @@
     <li><a href="contactpage.php">Services</a></li>
    <!-- <li><a href="#">Sign up</a></li>
     <li><a href="#">Login</a></li>-->
-    <li>
+   <!-- <li>
       <a href="#">
       <i class= "fa fa-user"></i>
         User
@@ -53,8 +51,9 @@
     
     </li>
    </ul>
-  </header>
-      <form class = "form" action="contactform.php" method= "post">
+  </header> -->
+  
+  <form class = "form" action="contactform.php" method= "post">
         <h2 class ="title"> Contact Us </h2>
         <p class="name">
           <label id= "label1"for="name">Name</label>
@@ -81,13 +80,14 @@
           <input type="submit" value="Send"></p>
 
       </form>
-    </body>
-    <footer>
+<footer>
 <?php
 include_once('template/footpage.php');
 ?>
 </footer>
+
 </body>
+
 
 </html>
 
