@@ -1,4 +1,4 @@
-
+<footer>
   <div class="footer">
       <div class="inner_footer">
           <div class="logo_container">
@@ -40,14 +40,14 @@
 
     </div>
   </div>
-
-  <!--JQuery-->
+</footer>
+<!--JQuery-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <!--Caroussel-->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!--Script-->
-<script src="JS/script.js">
+<script src="JS/script.js"></script>
 
-</script>
+
 </body>
 </html>
