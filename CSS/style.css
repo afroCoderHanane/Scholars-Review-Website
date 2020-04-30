@@ -2,12 +2,19 @@
     box-sizing: border-box;
 
 }
-body{
+html{
     padding: 0px;
     margin: 0px;
+    height:100%;
+}
+body{
+    padding: 0;
+    margin: 0;
     background:#E7E5E5;
     font-family: 'Cormorant Garamond' , serif;
+    height:100%;
 }
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Acme', serif;
     margin: 5px;
@@ -53,7 +60,7 @@ a{
 header {
     background: #225560;
     
-    height:66px;
+     height:66px;
 }
 
 header * {
@@ -133,7 +140,7 @@ header ul li ul li{
        
        position: relative;
         /* Full height */
-        height: 100%;
+        
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -229,11 +236,14 @@ img.rounded-corners {
 .content{
     width:90%;
     margin:30px auto 30px;
+    min-height:100vh;
+    overflow:auto;
    
     
 }
 .content .main-content{
     width: 70%;
+    min-height:100%;
     float: left;
     
 }
@@ -242,10 +252,14 @@ img.rounded-corners {
     padding: 20px 50px;
     font-size: 1.1rem;
     border-radius: 5px;
+    height:100%;
 }
 .content .main-content.single .post-title{
     text-align:center;
     margin-bottom:40px;
+}
+.content .main-content.single .post-content{
+    height:100%;
 }
 
 .content .main-content .post{
@@ -278,16 +292,19 @@ img.rounded-corners {
     transition: .25s;
 }
 .content .main-content .post .post-image{
-    widows:40%;
+   min-width:40%;
+   windows: 40%;
+   width:40%;
     height:100%;
     float:left;
 }
-/*.content .main-content .post .post-preview
+.content .main-content .post .post-preview
 {
-    width:60%;
+    min-width: 60%;
+    width: 60%;
     padding:10px;
     float: right;
-}*/
+}
 .content .main-content .recent-post-title{
     margin:20px;
 }
