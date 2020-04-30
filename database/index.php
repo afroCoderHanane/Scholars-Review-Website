@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="comment-style.css">
 <title> Title of the document</title>
 </head>
 
@@ -22,6 +22,8 @@ echo"<form method='POST' action='".setComments($conn)."'>
     <textarea name='message'></textarea><br>
     <button type='submit' name='commentSubmit'>Comment</button>
 </form>";
+
+getComments($conn);
 ?>
 </body>
 </html>
