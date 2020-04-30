@@ -3,7 +3,8 @@
 session_start();
 // destroy the session
 session_destroy();
-
-header("location:login.php");
-
+echo"<script> 
+alert('Logging out!');
+window.location.href='login.php';
+</script>";
 ?>
