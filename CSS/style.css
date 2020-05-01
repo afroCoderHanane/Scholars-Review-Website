@@ -292,15 +292,15 @@ img.rounded-corners {
     transition: .25s;
 }
 .content .main-content .post .post-image{
-   min-width:40%;
-   windows: 40%;
-   width:40%;
+   /*min-width:40%;*/
+    widows: 40%;
+    width:40%;
     height:100%;
     float:left;
 }
 .content .main-content .post .post-preview
 {
-    min-width: 60%;
+    /*min-width: 60%;*/
     width: 60%;
     padding:10px;
     float: right;
