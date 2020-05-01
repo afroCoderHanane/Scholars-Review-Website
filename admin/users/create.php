@@ -68,7 +68,7 @@ if (isset($_SESSION['username'])) {
     </li>
    </ul>
   </header>
-<div class="admin-wrapper">
+<div class="admin-wrapper" style="background-color:#e0e0e0;">
   <!--left sidebar-->  
  <div class="left-sidebar">
    <ul>
@@ -83,31 +83,31 @@ if (isset($_SESSION['username'])) {
         <a href="create.php" class="btn btn-big">Add User</a>
         <a href="index.php" class="btn btn-big">Manage Users</a>
     </div>
-    <div class="content">
+    <div class="content" >
         <h2 class="page-title">Add User</h2>
-         <form action="create.php" method="post">
+         <form action="create.php" method="post" >
              <div>
-                 <label> Username</label>
+                 <label> Username</label><br>
                  <input type="text" name="username" class="inputvalue">
              </div>
 
              <div>
-                 <label> Email</label>
+                 <label> Email</label><br>
                  <input type="email" name="username" class="inputvalue">
              </div>
 
              <div>
-                 <label> Password</label>
+                 <label> Password</label><br>
                  <input type="password" name="username" class="inputvalue">
              </div>
 
              <div>
-                 <label> Confirm Password</label>
+                 <label> Confirm Password</label><br>
                  <input type="password" name="username" class="inputvalue">
              </div>
              <div>
-                 <label> Role</label>
-                 <select name="role" class="text-input" >
+                 <label> Role</label><br>
+                 <select name="role" class="qualification" >
                      <option value="Client">Client</option>
                      <option value="Admin">Admin</option>
                  </select>

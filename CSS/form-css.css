@@ -85,4 +85,13 @@ label{
 	-moz-border-radius: 3px;
 	-webkit-border-radius:3px;
 }
+@media only screen and (max-width:900px)
+{
+	.form {
+		margin:0 auto;
+		  display: inline-block;
+		  text-align: left;
+	}
+	
+}
 
