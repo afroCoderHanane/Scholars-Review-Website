@@ -90,7 +90,7 @@
                 jfjkdklsjfkdkljfjkdkdl
 
              </p>
-             <a href="single.html" class="btn read-more">Read more</a>
+             <a href="single.php" class="btn read-more">Read more</a>
          </div> 
         </div>
 
@@ -111,7 +111,7 @@
 
              </p>
              <a href="single.php" class="btn read-more">Read more</a>
-           <!--  <a href="single.html" class="btn reply">Reply</a>-->
+           <!--  <a href="single.php" class="btn reply">Reply</a>-->
          </div> 
         </div>
 
@@ -131,7 +131,7 @@
                 jfjkdklsjfkdkljfjkdkdl
 
              </p>
-             <a href="single.html" class="btn read-more">Read more</a>
+             <a href="single.php" class="btn read-more">Read more</a>
          </div> 
         </div>
        

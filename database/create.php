@@ -7,9 +7,12 @@
 <p>Click the respectively buttons to create database.</p>
 <p> Create database first and then table </p>
 
-<button onclick="location.href='createdatabase.php'">Create database</button>
-<button onclick="location.href='createtable.php'">Create table</button>
-<button onclick="location.href='deletedatabase.php'">Delete Database & Tables</button>
+<button onclick="location.href='createdb.php'">Create website database </button>
+<button onclick="location.href='commentstb.php'">Create comment table</button>
+<button onclick="location.href='logintb.php'">Create login table</button>
+<button onclick="location.href='deldb.php'">Delete the website database</button>
+<button onclick="location.href='delcommentstb.php'">Delete the comments table</button>
+
 
 </body>
 </html>

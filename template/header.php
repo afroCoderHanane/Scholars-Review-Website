@@ -61,7 +61,7 @@ else {
       </a>
       
       <ul>
-        <li><a href="/Scholars-Review-Website/admin/posts/index.php">Dashboard</a></li>
+        <li><a href="./admin/posts/index.php">Dashboard</a></li>
         <li><a href="logout.php" class="logout">logout</a></li>
       </ul>
     

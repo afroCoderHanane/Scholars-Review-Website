@@ -19,6 +19,8 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Acme', serif;
     margin: 5px;
 }
+
+
 a{
     text-decoration: none;
     color: inherit;
@@ -364,6 +366,19 @@ img.rounded-corners {
 .post.clearfix{
     height:60px;
 }
+
+
+/*
+***************
+****Comment**** 
+***************
+*/
+.comment-title{
+    margin-left: 5%;
+}
+
+
+
 
   /*Media queries*/
  @media only screen and (max-width:750px)

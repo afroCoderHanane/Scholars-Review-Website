@@ -1,0 +1,28 @@
+--> DATABASE NAME : scholarsdb
+-->Table 1: logintb
+-->Table 2: commenttb
+
+
+-->Dabtase Creation
+CREATE DATABASE scholarsdb;
+
+-->Table 1:
+CREATE TABLE logindb(
+    userid int (11) not null AUTO_INCREMENT PRIMARY KEY,
+    username varchar(128) not null,
+    firstname varchar(128) not null,
+    lastname varchar(128) not null,
+    qualification varchar(128) not null,
+    gender varchar(128) not null,
+    password varchar(128) not null,
+    role varchar(128) not null
+); 
+
+-->****Subject to change****
+CREATE TABLE comments (
+	commentid int(11) not null AUTO_INCREMENT PRIMARY KEY, -->old CID
+    username varchar(128) not null,  -->old UID
+    date datetime not null,
+    message TEXT not null
+);
+

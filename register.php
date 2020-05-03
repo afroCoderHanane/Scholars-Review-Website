@@ -33,11 +33,11 @@ require 'config.php';
            <option value="Master">Master</option>
            <option value="Phd">Phd</option>
          </select><br>
-     <label><b> Username</b></label><br>
+     <label><b>Choose an username</b></label><br>
       <input name="username" type="text" class="inputvalue" placeholder="Enter username" required/><br>
-      <label><b> Password</b></label><br>
+      <label><b>Choose a Password</b></label><br>
       <input name="password" type="password" class="inputvalue" placeholder="Enter password" required/><br>
-      <label><b> Confirm Password</b></label><br>
+      <label><b> Confirm the Password</b></label><br>
       <input name="cpassword" type="password" class="inputvalue" placeholder="Confirm password"required/><br>
       <input name="submit-btn" type="submit" id="signup-btn" value ="Register"/><br>
       <a href= "login.php"><input type="button" id="back-btn" value ="Back"/></a>
@@ -55,6 +55,7 @@ require 'config.php';
         $password= $_POST['password'];
         $cpassword= $_POST['cpassword'];
         $hashedpsw=password_hash($password,PASSWORD_DEFAULT);
+        $role = "member";
 
      if($password==$cpassword)
      {
@@ -67,14 +68,16 @@ require 'config.php';
          }
          else
          {
-            $query= "insert into userinfotable (username,password,firstname,lastname,gender,qualification) values('$username','$hashedpsw','$firstname','$lastname','$gender','$qualification')";
+            $query= "insert into userinfotable (username,password,firstname,lastname,gender,qualification,role) values('$username','$hashedpsw','$firstname','$lastname','$gender','$qualification','$role')";
             $query_run = mysqli_query($con,$query);
             
              if($query_run)
              {
-                echo '<script type = "text/javascript"> alert("Registration successful: Return to login Page")</script>';
-                header("login.php");
-             }
+               echo"<script> 
+               alert('Registration successful: Return to login Page');
+               window.location.href='login.php';
+               </script>";   
+            }
              else
              {
                 echo '<script type = "text/javascript"> alert("Error 404: Registration failed")</script>';
