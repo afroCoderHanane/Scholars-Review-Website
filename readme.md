@@ -13,7 +13,7 @@ Components:
        Video link : coming soon on my youtube page 
 
 ## Built With
-[MYSQL](https://www.mysql.com/) - Local database
+[MYSQL](https://www.mysql.com/) - Database
 
 [XAMPP](https://www.apachefriends.org/index.html) - Local Webserver setup
 
