@@ -61,7 +61,7 @@ if (isset($_SESSION['username'])) {
       
       <ul>
         
-        <li><a href="logout.php" class="logout">logout</a></li>
+        <li><a href="../../logout.php" class="logout">logout</a></li>
       </ul>
     
     </li>
