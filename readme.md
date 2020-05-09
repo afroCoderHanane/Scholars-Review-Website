@@ -45,8 +45,8 @@ CREATE TABLE logindb(
 * Second table:
 ```
 CREATE TABLE comments (
-	commentid int(11) not null AUTO_INCREMENT PRIMARY KEY, -->old CID
-    username varchar(128) not null,  -->old UID
+	commentid int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    username varchar(128) not null,  
     date datetime not null,
     message TEXT not null
 );
