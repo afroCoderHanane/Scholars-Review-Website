@@ -59,7 +59,7 @@ require 'config.php';
 
      if($password==$cpassword)
      {
-         $query= "SELECT * FROM userinfotable WHERE username='$username'";
+         $query= "SELECT * FROM logindb WHERE username='$username'";
          $query_run= mysqli_query($con,$query);
 
          if(mysqli_num_rows($query_run)>0)
@@ -68,7 +68,7 @@ require 'config.php';
          }
          else
          {
-            $query= "insert into userinfotable (username,password,firstname,lastname,gender,qualification,role) values('$username','$hashedpsw','$firstname','$lastname','$gender','$qualification','$role')";
+            $query= "insert into logindb (username,password,firstname,lastname,gender,qualification,role) values('$username','$hashedpsw','$firstname','$lastname','$gender','$qualification','$role')";
             $query_run = mysqli_query($con,$query);
             
              if($query_run)

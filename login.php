@@ -36,7 +36,7 @@ require 'config.php';
     //$username = strip_tags(mysqli_real_escape_string($con, trim($username)));
     //$password = strip_tags(mysqli_real_escape_string($con, trim($password)));
     
-    $query= "SELECT password from userinfotable WHERE username='$username'";
+    $query= "SELECT password from logindb WHERE username='$username'";
     $query_run= mysqli_query($con,$query);
     
     if(mysqli_num_rows($query_run)>0)
